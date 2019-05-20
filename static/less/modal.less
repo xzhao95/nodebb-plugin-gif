@@ -1,0 +1,52 @@
+.tenor-gif-modal {
+	#gif-results {
+		overflow-y: auto;
+		white-space: normal;
+		max-height: 400px;
+		display: flex;
+		flex-wrap: wrap;
+
+		.img-wrap {
+			border: 1px solid #cccccc;
+			width: 12rem;
+			height: 12rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 1rem;
+			margin-right: 3rem;
+			img {
+				display: inline-block;
+				max-height: 11.5rem;
+				max-width: 11.5rem;
+				cursor: pointer;
+				&:hover {
+					opacity: 0.8;
+				}
+			}
+		}
+	}
+}
+
+/* Composer formatting icon override */
+.fa-tenor-gif::before {
+	content: 'GIF';
+	font-size: 1rem;
+	font-family: sans;
+	background: #333;
+	color: #fff;
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.5em;
+	position: relative;
+	top: -0.2rem;
+}
+.input-wrap {
+	display: flex;
+	display: -webkit-flex;
+}
+
+.tenor-gif-settings {
+	.form-control {
+		height: 20rem;
+	}
+}
