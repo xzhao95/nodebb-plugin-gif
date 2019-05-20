@@ -5,7 +5,7 @@
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/julianlam/nodebb-plugin-tenor-gif"
+    "url": "https://github.com/xzhao95/nodebb-plugin-gif"
   },
   "keywords": [
     "nodebb",
@@ -13,12 +13,12 @@
     "gif"
   ],
   "author": {
-    "name": "Julian Lam",
-    "email": "julian@nodebb.org"
+    "name": "zhaoyiting",
+    "email": "zhaoyiting26@163.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianlam/nodebb-plugin-tenor-gif/issues"
+    "url": "https://github.com/xzhao95/nodebb-plugin-gif/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {
